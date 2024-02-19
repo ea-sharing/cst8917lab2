@@ -9,7 +9,7 @@ module.exports = async function (context, req) {
     const collectionName = "cst8917lab2colid";
 
     try {
-        const client = new MongoClient(connectionString, { useNewUrlParser: true, useUnifiedTopology: true, auth: { username: "cst8917cosmodbaccount", password: "bRPhjapcxH7q1zzQAW4aX0aMbofMBVzM9YbzsoAi2RWhI9HcBVeZtkT1Am4O5iTGHaB2jKtq9lfLACDbaYUrgg==" } });
+        const client = new MongoClient(connectionString, { useNewUrlParser: true, useUnifiedTopology: true, auth: { username: "cst8917cosmodbaccount", password: "pass==" } });
         await client.connect();
 
         const database = client.db(dbName);
