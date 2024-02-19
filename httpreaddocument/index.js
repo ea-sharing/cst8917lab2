@@ -36,7 +36,7 @@ module.exports = async function (context, req) {
             useUnifiedTopology: true,
             auth: {
                 username: "cst8917cosmodbaccount",
-                password: "bRPhjapcxH7q1zzQAW4aX0aMbofMBVzM9YbzsoAi2RWhI9HcBVeZtkT1Am4O5iTGHaB2jKtq9lfLACDbaYUrgg=="
+                password: "pass=="
             }
         });
         await client.connect();
